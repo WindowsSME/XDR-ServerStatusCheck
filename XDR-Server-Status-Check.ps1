@@ -2,6 +2,7 @@
 #Author : James Romeo Gaspar
 #OG 1.0 01Jul2023
 #Revision 2.0 20Jul2023 : Revised to handle null values
+
 $trapsPath = "C:\Program Files\Palo Alto Networks\Traps"
 if (-not (Test-Path $trapsPath)) {
     Write-Output "XDR not Installed : $(Get-Date)"
